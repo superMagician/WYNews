@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WYMainViewController : UIViewController
+@interface WYMainViewController : UITabBarController
 
 @end

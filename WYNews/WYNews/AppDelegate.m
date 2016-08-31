@@ -23,8 +23,16 @@
     
     _window.rootViewController = vc;
     [_window makeKeyAndVisible];
-    
+    [self setupAppearance];
     return YES;
+}
+
+#pragma mark -设置外观
+//设置外观 appearance 是一个协议，设置控件全局外观
+- (void)setupAppearance {
+    // 设置 tabBar 的渲染颜色 - 会设置`后续[外观设置之后的]` UITabBar 的 tintColor 全部是指定的颜色
+    [UITabBar appearance].tintColor = [UIColor cz_colorWithHex:0xDF0000];
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
