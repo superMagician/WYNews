@@ -11,6 +11,7 @@
 		1B0CFB681D5E4E28009051D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0CFB671D5E4E28009051D9 /* AppDelegate.m */; };
 		1B0CFB701D5E4E28009051D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B0CFB6F1D5E4E28009051D9 /* Assets.xcassets */; };
 		1B0CFB731D5E4E28009051D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B0CFB711D5E4E28009051D9 /* LaunchScreen.storyboard */; };
+		1B5636991D769F0B004C1859 /* WYNewsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5636981D769F0B004C1859 /* WYNewsListViewController.m */; };
 		1BB858E11D5EC4E70072454A /* WYMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB858E01D5EC4E70072454A /* WYMainViewController.m */; };
 		1BB858E41D5EC4F40072454A /* WYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB858E31D5EC4F40072454A /* WYHomeViewController.m */; };
 		1BB858FF1D5EC5250072454A /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB858E81D5EC5250072454A /* NSArray+Log.m */; };
@@ -36,6 +37,8 @@
 		1B0CFB6F1D5E4E28009051D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B0CFB721D5E4E28009051D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B0CFB741D5E4E28009051D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B5636971D769F0B004C1859 /* WYNewsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYNewsListViewController.h; sourceTree = "<group>"; };
+		1B5636981D769F0B004C1859 /* WYNewsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYNewsListViewController.m; sourceTree = "<group>"; };
 		1B90954E1D6F058900ECA4C0 /* WYNewsPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYNewsPrefixHeader.pch; sourceTree = "<group>"; };
 		1BB858DF1D5EC4E70072454A /* WYMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYMainViewController.h; sourceTree = "<group>"; };
 		1BB858E01D5EC4E70072454A /* WYMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYMainViewController.m; sourceTree = "<group>"; };
@@ -133,6 +136,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1B5636951D769E44004C1859 /* NewsDetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NewsDetail;
+			sourceTree = "<group>";
+		};
+		1B5636961D769E44004C1859 /* NewsList */ = {
+			isa = PBXGroup;
+			children = (
+				1B5636971D769F0B004C1859 /* WYNewsListViewController.h */,
+				1B5636981D769F0B004C1859 /* WYNewsListViewController.m */,
+			);
+			path = NewsList;
+			sourceTree = "<group>";
+		};
 		1BB858DB1D5EC4880072454A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +165,8 @@
 		1BB858DC1D5EC4880072454A /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				1B5636951D769E44004C1859 /* NewsDetail */,
+				1B5636961D769E44004C1859 /* NewsList */,
 				1BB858E21D5EC4F40072454A /* WYHomeViewController.h */,
 				1BB858E31D5EC4F40072454A /* WYHomeViewController.m */,
 			);
@@ -341,6 +362,7 @@
 				1BB859011D5EC5250072454A /* NSObject+CZRuntime.m in Sources */,
 				1BB859021D5EC5250072454A /* NSString+CZBase64.m in Sources */,
 				1BB8590A1D5EC5250072454A /* UIViewController+CZAddition.m in Sources */,
+				1B5636991D769F0B004C1859 /* WYNewsListViewController.m in Sources */,
 				1BB859091D5EC5250072454A /* UIView+CZAddition.m in Sources */,
 				1BB859001D5EC5250072454A /* NSAttributedString+CZAdditon.m in Sources */,
 				1BB859061D5EC5250072454A /* UIColor+CZAddition.m in Sources */,
